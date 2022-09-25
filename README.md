@@ -1,6 +1,6 @@
 # Awesome-VFI
 This is a summary of recent video frame interpolation (VFI) methods.
-| Title                  | Model Name                 | Published                                                    | Repo                                                         | Keywords                                                     |
+| Title                  | Model                  | Published                                                    | Repo                                                         | Keywords                                                     |
 | ---------------------- | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Video Frame Interpolation via Adaptive Convolution | -- | [CVPR2017](https://arxiv.org/pdf/1703.07514.pdf) | -- | Kernel-based |
 | Video Frame Interpolation via Adaptive Separable Convolution | SepConv | [ICCV2017](https://arxiv.org/pdf/1708.01692.pdf) | [Pytorch&Cupy](https://github.com/sniklaus/sepconv-slomo) ![Github stars](https://img.shields.io/github/stars/sniklaus/sepconv-slomo) | Kernel-based |
