@@ -23,6 +23,7 @@ This is a summary of recent video frame interpolation (VFI) methods.
 | CDFI: Compression-Driven Network Design for Frame Interpolation | CDFI | [CVPR2021](https://arxiv.org/pdf/2103.10559.pdf) | [Pytorch](https://github.com/tding1/CDFI) ![Github stars](https://img.shields.io/github/stars/tding1/CDFI) | Model compression | 
 | Deep Animation Video Interpolation in the Wild | AnimeInterp | [CVPR2021](https://arxiv.org/pdf/2104.02495.pdf) | [Pytorch](https://github.com/lisiyao21/AnimeInterp) ![Github stars](https://img.shields.io/github/stars/lisiyao21/AnimeInterp) | Amine interpolation, [ATD-12K](https://drive.google.com/file/d/1XBDuiEgdd6c0S4OXLF4QvgSn_XNPwc-g/view) |
 | Asymmetric Bilateral Motion Estimation for Video Frame Interpolation | ABME | [ICCV2021](https://arxiv.org/pdf/2108.06815.pdf) | [Pytorch](https://github.com/JunHeum/ABME) ![Github stars](https://img.shields.io/github/stars/JunHeum/ABME) | Flow-based, Multiple flows, Cost volume |
+| Revisiting Adaptive Convolutions for Video Frame Interpolation | -- | [WACV2021](https://arxiv.org/pdf/2011.01280.pdf) | [Pytorch&Cupy](https://github.com/sniklaus/revisiting-sepconv) ![Github stars](https://img.shields.io/github/stars/sniklaus/revisiting-sepconv) | Kernel-based |
 | IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation | IFRNet | [CVPR2022](https://arxiv.org/pdf/2205.14620.pdf) | [Pytorch](https://github.com/ltkong218/IFRNet) ![Github stars](https://img.shields.io/github/stars/ltkong218/IFRNet) | Flow-based, Efficiency |
 | FILM: Frame Interpolation for Large Motion | FILM | [CVPR2022](https://arxiv.org/pdf/2202.04901.pdf) | [Pytorch](https://github.com/google-research/frame-interpolation) ![Github stars](https://img.shields.io/github/stars/google-research/frame-interpolation) | Flow-based, Large motion |
 | Video Frame Interpolation Transformer | VFIT | [CVPR2022](https://arxiv.org/pdf/2111.13817.pdf) |[Pytorch](https://github.com/zhshi0816/Video-Frame-Interpolation-Transformer) ![Github stars](https://img.shields.io/github/stars/zhshi0816/Video-Frame-Interpolation-Transformer) | Window-based Attention, Multiple Frames |
@@ -30,7 +31,6 @@ This is a summary of recent video frame interpolation (VFI) methods.
 | Long-term Video Frame Interpolation via Feature Propagation | P-INet | [CVPR2022](https://arxiv.org/pdf/2203.15427.pdf) | -- | Flow-based | 
 | ST-MFNet: A Spatio-Temporal Multi-Flow Network for Frame Interpolation | ST-MFNet | [CVPR2022](https://arxiv.org/pdf/2111.15483.pdf) | [Pytorch](https://github.com/danielism97/ST-MFNet) ![Github stars](https://img.shields.io/github/stars/danielism97/ST-MFNet) | Flow-based, Multiple frames |
 | Many-to-many Splatting for Efficient Video Frame Interpolation | M2M-VFI | [CVPR2022](https://arxiv.org/pdf/2204.03513.pdf) | [Pytorch&Cupy](https://github.com/feinanshan/M2M_VFI) ![Github stars](https://img.shields.io/github/stars/feinanshan/M2M_VFI) | Flow-based, Forward warping, Multiple flows |
-| Revisiting Adaptive Convolutions for Video Frame Interpolation | -- | [WACV2021](https://arxiv.org/pdf/2011.01280.pdf) | [Pytorch&Cupy](https://github.com/sniklaus/revisiting-sepconv) ![Github stars](https://img.shields.io/github/stars/sniklaus/revisiting-sepconv) | Kernel-based |
 | Real-Time Intermediate Flow Estimation for Video Frame Interpolation | RIFE | [ECCV2022](https://arxiv.org/pdf/2011.06294.pdf) | [Pytorch](https://github.com/megvii-research/ECCV2022-RIFE) ![Github stars](https://img.shields.io/github/stars/megvii-research/ECCV2022-RIFE) | Flow-based, Distillation |
 | Improving the Perceptual Quality of 2D Animation Interpolation | | [ECCV2022](https://arxiv.org/abs/2111.12792) | [Pytorch](https://github.com/ShuhongChen/eisai-anime-interpolator) ![Github stars](https://img.shields.io/github/stars/ShuhongChen/eisai-anime-interpolator) | Animation Interpolation, New metrics
 | Cross-Attention Transformer for Video Interpolation | TAIN |[Arxiv.2207](https://arxiv.org/pdf/2207.04132.pdf) | -- | Cross-Attention |
@@ -38,6 +38,6 @@ This is a summary of recent video frame interpolation (VFI) methods.
 
 
 
-*The keywords `Multiple Frames` means the number of input frames is more than two frames.
+*The keywords `Multiple Frames` means the number of input frames is more than two.
 
 *Above methods exclude Spatial-Temporal Super Resolution, Event-based Frame Interpolation and other joint tasks (*e.g.* deblur+VFI). Coming soon! (Perhaps not soon)
