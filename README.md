@@ -33,10 +33,12 @@ This is a summary of recent video frame interpolation (VFI) methods.
 | ST-MFNet: A Spatio-Temporal Multi-Flow Network for Frame Interpolation | ST-MFNet | [CVPR2022](https://arxiv.org/pdf/2111.15483.pdf) | [Pytorch](https://github.com/danielism97/ST-MFNet) ![Github stars](https://img.shields.io/github/stars/danielism97/ST-MFNet) | Flow-based, Multiple frames |
 | Many-to-many Splatting for Efficient Video Frame Interpolation | M2M-VFI | [CVPR2022](https://arxiv.org/pdf/2204.03513.pdf) | [Pytorch&Cupy](https://github.com/feinanshan/M2M_VFI) ![Github stars](https://img.shields.io/github/stars/feinanshan/M2M_VFI) | Flow-based, Forward warping, Multiple flows |
 | Real-Time Intermediate Flow Estimation for Video Frame Interpolation | RIFE | [ECCV2022](https://arxiv.org/pdf/2011.06294.pdf) | [Pytorch](https://github.com/megvii-research/ECCV2022-RIFE) ![Github stars](https://img.shields.io/github/stars/megvii-research/ECCV2022-RIFE) | Flow-based, Distillation |
-| Improving the Perceptual Quality of 2D Animation Interpolation | | [ECCV2022](https://arxiv.org/abs/2111.12792) | [Pytorch](https://github.com/ShuhongChen/eisai-anime-interpolator) ![Github stars](https://img.shields.io/github/stars/ShuhongChen/eisai-anime-interpolator) | Animation Interpolation, New metrics
-| Cross-Attention Transformer for Video Interpolation | TAIN |[Arxiv.2207](https://arxiv.org/pdf/2207.04132.pdf) | -- | Cross-Attention |
+| Improving the Perceptual Quality of 2D Animation Interpolation | | [ECCV2022](https://arxiv.org/abs/2111.12792) | [Pytorch](https://github.com/ShuhongChen/eisai-anime-interpolator) ![Github stars](https://img.shields.io/github/stars/ShuhongChen/eisai-anime-interpolator) | Animation Interpolation, New metrics |
+| Cross-Attention Transformer for Video Interpolation | TAIN |[Arxiv.2207](https://arxiv.org/pdf/2207.04132.pdf) | -- | Cross-Attention, Transformer |
 | Error-Aware Spatial Ensembles for Video Frame Interpolation | -- | [Arxiv.2207](https://arxiv.org/pdf/2207.12305.pdf) | -- | Flow-based, Divide-and-conquer |
-
+| A Unified Pyramid Recurrent Network for Video Frame Interpolation | -- | [Arxiv.2211](https://arxiv.org/pdf/2211.03456.pdf) | -- | Flow-based, Forward warping, Cost volume |
+| TTVFI: Learning Trajectory-Aware Transformer for Video Frame Interpolation | -- | [Arxiv.2211](https://arxiv.org/pdf/2211.03456.pdf) | -- | Flow-based,  Transformer | 
+| Exploring Motion Ambiguity and Alignment for High-Quality Video Frame Interpolation | -- | [Arxiv.2203](https://arxiv.org/pdf/2203.10291.pdf) | -- | |
 
 
 *The keywords `Multiple Frames` means the number of input frames is more than two.
