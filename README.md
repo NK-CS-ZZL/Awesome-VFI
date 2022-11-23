@@ -37,7 +37,7 @@ This is a summary of recent video frame interpolation (VFI) methods.
 | Cross-Attention Transformer for Video Interpolation | TAIN |[Arxiv.2207](https://arxiv.org/pdf/2207.04132.pdf) | -- | Cross-Attention, Transformer |
 | Error-Aware Spatial Ensembles for Video Frame Interpolation | -- | [Arxiv.2207](https://arxiv.org/pdf/2207.12305.pdf) | -- | Flow-based, Divide-and-conquer |
 | A Unified Pyramid Recurrent Network for Video Frame Interpolation | -- | [Arxiv.2211](https://arxiv.org/pdf/2211.03456.pdf) | -- | Flow-based, Forward warping, Cost volume |
-| TTVFI: Learning Trajectory-Aware Transformer for Video Frame Interpolation | -- | [Arxiv.2211](https://arxiv.org/pdf/2211.03456.pdf) | -- | Flow-based,  Transformer | 
+| TTVFI: Learning Trajectory-Aware Transformer for Video Frame Interpolation | -- | [Arxiv.2207](https://arxiv.org/abs/2207.09048) | -- | Flow-based,  Transformer | 
 | Exploring Motion Ambiguity and Alignment for High-Quality Video Frame Interpolation | -- | [Arxiv.2203](https://arxiv.org/pdf/2203.10291.pdf) | -- | |
 
 
